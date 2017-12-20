@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Vazkelector: Tu mejor elección móvil</title>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta name="description" content="Eleccion de moviles por Ángela Vázquez">
+    <meta name="author" content="Ángela Vázquez">
+    <meta name="keyword" content="web ángela vázquez móviles android iphone tecnologia tech">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Esto es para relacionar mi html con el CSS y el JS-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript" src="code.js"></script>
+</head>
+
+
+
+<body>
+    <h1>Vazkelector: El móvil que más se adapta a ti</h1>
+    <h2>Web donde te diremos cómo elegir el móvil que mejor se ajuste a tus necesidades</h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="pasos.html">Pasos a seguir</a>
+            </li>
+            <li>
+                <a href="diy.html">Hazlo aquí</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contáctame</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contacto" >
+            <article id="formulario">
+                <form name="contacto" action="enviar.php" method="POST">
+                    <fieldset>
+                        <legend> Formulario de contacto</legend>
+                        <label for="name">Nombre:</label> <br>
+                        <input name="nombre" type="text" id="name" placeholder="Tu nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required />
+                        <br>
+                        <br>
+                        <label for="apellidos">Apellidos:</label><br>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Tus apellidos" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required/>
+                        <br>
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input name="mail" type="mail" id="mail" placeholder="Correo electrónico" required />
+                        <br>
+                        <!-- <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" placeholder="Tu contraseña" required pattern="{8,25}" /><br> -->
+                        
+                        <br>
+                        <label> Asunto del mensaje </label> <br>
+                        <input name="asunto" type="text" id="asunto" placeholder="Asunto"/>
+                        <br>
+
+                        <label for="Mensaje">Mensaje</label>
+                        <br>
+                        <textarea name="mensaje" id="Mensaje" rows="4" cols="50" placeholder="Escribe aquí tu mensaje">
+    </textarea>
+                        <br>
+                    </fieldset>
+                    <br>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                    <br>
+
+                </form>
+
+            </article>
+            
+            <div>
+                    <img id="imgContacto" src="./img/contacto.png" alt="contacto">
+            </div>
+
+            <article class="socialmedia">
+                <!-- iconos redes sociales angela -->
+
+                <a href="https://www.facebook.com/Vazquez97" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://twitter.com/ngelavazquez" class="fa fa-twitter"target="_blank"></a>
+                <a href="https://www.linkedin.com/in/angelavazquezdominguez/" class="fa fa-linkedin"target="_blank"></a>
+                <a href="https://www.instagram.com/tabithaxfu/" class="fa fa-instagram"target="_blank"></a>
+
+
+            </article>
+
+
+        </section>
+
+
+        <aside>
+            <h2>Sitios de interés</h2>
+            <section>
+                <article>
+
+                    <ul class="lista">
+                        <li class="lista">
+                            <a href="https://www.youtube.com/channel/UCYkoAtIMi6oFG_8SO5YrauQ" target="_blank">Canal de Clipset</a>
+                        </li>
+                        <li class="lista">
+                            <a href="https://www.youtube.com/user/andro4all" target="_blank">Canal de Topes de Gama</a>
+                        </li>
+                        <li class="lista">
+                            <a href="https://www.youtube.com/channel/UCHXDyI3HvyaIL0rdA2nNNoQ" target="_blank">Canal de Android From China</a>
+                        </li>
+                        <li class="lista">
+                            <a href="https://www.youtube.com/user/AndroideReview" target="_blank">Canal de ProAndroid</a>
+                        </li>
+                        <li class="lista">
+                            <a href="https://www.xataka.com/" target="_blank">Web de Xataka</a>
+                        </li>
+                        <li class="lista">
+                            <a href="https://elandroidelibre.elespanol.com/" target="_blank">Web de El Androide Libre</a>
+                        </li>
+                        <li class="lista">
+                            <a href="https://www.kimovil.com/es/" target="_blank">Comparador de dispositivos: Kimovil</a>
+                        </li>
+
+
+                    </ul>
+                </article>
+
+
+            </section>
+
+
+
+        </aside>
+    </main>
+    <footer>
+        &copy; Ángela Vázquez Domínguez
+
+    </footer>
+</body>
+
+</html>

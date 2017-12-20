@@ -1,0 +1,214 @@
+body {
+    background-color:#A4C639;
+    /* background-color: powderblue; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* display: flex; */
+    /* align-items: flex-end; */
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 65, 22);
+    font-family: Courier New, Courier, monospace;
+    letter-spacing: 3px;
+}
+
+h1:hover{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.418);
+}
+
+h2{
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+}
+
+ul {
+	/*
+	Sirve para poner la lista como si fuera una barra de navegación, sin los puntos a la izquierda y sin bordes visibles
+	*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Courier New, Courier, monospace;
+   
+}
+
+li {
+	/*Que la barra esté a la izquierda */
+    float: left;
+}
+
+li a {
+	/* Que se disponga en bloques, la letra en negro, especifica el tamaño de los padding
+	*/
+    display: block;
+    color: black;
+	font-style: bold;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	/*Color de fondo de los bloques*/
+    background-color: rgba(255, 255, 255, 0.349);
+    font-size: 105%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.349);
+    /* background-color: rgba(100, 148, 237, 0.555); */
+}
+p{
+    line-height: 1.8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+    padding: 1%;
+   
+}
+
+.imagen {
+  float: right;
+  padding: 2%;
+}
+
+#formulario{
+    float: left;
+    width: 50%;
+}
+#imgContacto{
+    float: right;
+    width: 35%;
+    height: 30%;
+}
+
+
+
+.probar {
+    border: 5px solid rgba(0, 0, 0, 0.575);
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: rgba(216, 219, 35, 0.514);
+    margin: 3%;
+}
+
+
+section {
+    /* background-color: rgba(255, 255, 255, 0.493); */
+    width: 80%;
+    padding: 2%;
+}
+
+article{
+    /* background-color: chocolate; */
+    /* padding: 5%; */
+    
+}
+.pasos:hover{
+    background-color: rgba(218, 255, 243, 0.829);
+}
+
+.pasos {
+    border: 1px solid black;
+}
+
+
+
+aside{
+    background-color: rgba(255, 255, 0, 0.651);
+    width: 20%;
+    border-style: solid;
+}
+
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    background-color: rgba(231, 219, 243, 0.911);
+  
+    /* display:flex;
+    align-self: flex-end;
+    position: absolute; */
+    /* border-top: 2px solid #000; */
+    /* margin-top:-200px; */
+    /* bottom: 0; */
+    /* -webkit-box-sizing:border-box; */
+    /* -moz-box-sizing:border-box; */
+    /* box-sizing:border-box; */
+    /* border-top: 2px solid #000; */
+    position: fixed;
+    bottom: 0;    
+	
+}
+
+
+
+
+
+
+
+/* Esto para los botones de RRSS */
+.socialmedia{
+   display: flex;
+   /* align-self: flex-end; */
+   float: right;
+
+    
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
+
+
+
+  /* SEGUIR LEYENDO */
+  
+.oculto { 
+    display: none; 
+    }
+    .visible {
+         display: inline; 
+         }
+    
